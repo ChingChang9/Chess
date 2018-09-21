@@ -31,14 +31,14 @@ print("conditions; type `show c' for details. To show both, type 'show b'.")
 while True:
     user = input("Type 'show w', 'show c' or 'show b' for more detals, otherwise pleae click return.")
     if user == "show w":
-        with open("License Notice.txt") as f:
+        with open("License Notice.md") as f:
             print("\n", f.read())
     elif user == "show c":
-        with open("License.txt") as f:
+        with open("License.md") as f:
             print("\n", f.read())
     elif user == "show b":
-        with open("License Notice.txt") as f1:
-            with open("License.txt") as f2:
+        with open("License Notice.md") as f1:
+            with open("License.md") as f2:
                 print("\n", f1.read(), "\n", f2.read())
     else:
         break
