@@ -3,4 +3,5 @@ and pygame. Although this project is marked with the GNU General Public License,
 you can still email me at chingtheprogrammer@icloud.com if you want me to change
 anything.
 
-Ching Chang
+---
+# Ching Chang
